@@ -13,21 +13,21 @@ function fullNum(num) {
     }
     if (num === 1000) {
         roman_numeral = "M"
-    } else if (num > 900 && num < 1000) {
+    } else if (num > 899 && num < 1000) {
         roman_numeral = "CM" + tens;
-    } else if (num > 800) {
+    } else if (num > 799) {
         roman_numeral = "DCCC" + tens;
-    } else if (num > 700) {
+    } else if (num > 699) {
         roman_numeral = "DCC" + tens;
-    } else if (num > 600) {
+    } else if (num > 599) {
         roman_numeral = "DC" + tens;
-    } else if (num > 500) {
+    } else if (num > 499) {
         roman_numeral = "D" + tens;
-    } else if (num > 400) {
+    } else if (num > 399) {
         roman_numeral = "CD" + tens;
-    } else if (num > 300) {
+    } else if (num > 299) {
         roman_numeral = "CCC" + tens;
-    } else if (num > 200) {
+    } else if (num > 199) {
         roman_numeral = "CC" + tens;
     } else if (num > 100) {
         roman_numeral = "C" + tens;
@@ -81,9 +81,12 @@ function oneSpot(one_remainder){
         ones = "VII";
     } else if (one_remainder === 8) {
         ones = "VIII";
+    } else if (one_remainder === 9) {
+        ones = "IX";
     } else {
-        ones = "IX"
-    } return ones;
+        ones = "";
+    }    
+    return ones;
 }
 
-console.log("Your number is " + fullNum(755))
+console.log("Your number is " + fullNum(400))
