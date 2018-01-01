@@ -22,3 +22,4 @@ function minAbs(arr) {
 }
 
 console.log(minAbs([1,5,20,9,11]))
+

@@ -15,5 +15,5 @@ function pal(word) {
     return isPal
 }
 
-pal("kissing777gnissik")
+pal("kissing777gnissi")
 
