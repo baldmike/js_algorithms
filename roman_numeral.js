@@ -89,4 +89,4 @@ function oneSpot(one_remainder){
     return ones;
 }
 
-console.log("Your number is " + fullNum(400))
+console.log("Your Roman number is " + fullNum(400))
