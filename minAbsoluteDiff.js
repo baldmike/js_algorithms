@@ -1,13 +1,3 @@
-// function addAtIndex (arr, index, val) {
-//     insertAt(arr,index,val);
-//     return arr
-// }
-
-
-// console.log(addAtIndex ([1,2,3,5], 3, 4))
-
-
-
 function minAbs(arr) {
     arr.sort(function(a, b) {return a-b});
     console.log(arr);

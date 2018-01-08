@@ -14,18 +14,4 @@ function equals (arr) {
     } return false;
 }
 
-equals [1,2,3,4,10]
-
-
-// REMOVE DUPLICATES
-// THIS DOESN'T WORK
-// function removeDupes (arr) {
-//     for (var i = 1; i < arr.length; i++) {
-//         for (var j = 0; j < i, j++) {
-//             if (arr[i] === arr[j]) {
-//                 arr = arr.splice(i, 1),
-                
-//             }
-//         }
-//     }
-// }
+console.log(equals [1,2,3,4,10])

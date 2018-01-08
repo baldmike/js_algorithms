@@ -1,3 +1,22 @@
+
+// Is string a palindrome
+
+function palindrome(str) {
+    for (var i = 0; i < str.length/2; i++) {
+        if (str[i] != str[str.length-1-i]) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+}
+var y = "blobbolb";
+console.log(palindrome(y));
+
+
+// ALTERNATE
+
+
 function isPal(str){    
     x = str.length-1;
     for (var i = 0; i < str.length-1; i++){
@@ -13,7 +32,8 @@ function isPal(str){
 isPal ("ottox");
 
 
-// alternate way
+// ALTERNATE
+
 
 function pal(word) {
     j = word.length-1;
